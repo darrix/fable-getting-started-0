@@ -9,7 +9,7 @@ module.exports = {
     entry: "./src/App.fsproj",
     output: {
         path: path.join(__dirname, "./public"),
-        filename: "main.js"
+        filename: "bundle.js"
     },
     devServer: {
         contentBase: path.join(__dirname, "./dist")

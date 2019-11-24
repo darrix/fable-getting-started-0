@@ -1,11 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-    <PropertyGroup>
-        <TargetFramework>netstandard2.0</TargetFramework>
-    </PropertyGroup>
-    <ItemGroup>
-        <Compile Include="App.fs" />
-    </ItemGroup>
-    <ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.fs" />
+  </ItemGroup>
+  <!-- <ItemGroup>
       <PackageReference Include="Fable.Browser.Dom" Version="1.1.0" />
-    </ItemGroup>
+    </ItemGroup> -->
+  <Import Project="..\.paket\Paket.Restore.targets" />
 </Project>
